@@ -1,0 +1,13 @@
+ir_localization:
+  ros__parameters:  
+    blur: Gauss # Control image blur: None, Homogeneous, Gauss, Median, Bilateral
+    blur_w: 5 # Blur w parameter
+    blur_h: 5 # Blur h parameter
+    blur_sigma_x: 0 # Blur sigma x parameter
+    blur_sigma_y: 0 # Blur sigma y parameter
+    threshold_val: 225 # Threshold value for image
+    pnp_method: SOLVEPNP_ITERATIVE # SOLVEPNP_ITERATIVE SOLVEPNP_EPNP, SOLVEPNP_IPPE, SOLVEPNP_SQPNP
+    pnp_ext_guess: false # t/f use extrinsic as seed for iteration
+    pnp_ransac: false # Use PnP solve with RANSAC
+    
+  

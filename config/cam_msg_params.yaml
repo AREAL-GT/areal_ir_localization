@@ -1,0 +1,16 @@
+ir_localization:
+  ros__parameters:
+    camera_topic: /my_camera/pylon_ros2_camera_node/image_raw
+    beacon_baud_rate: 10
+    frame_rate: 50
+    bits_per_message: 12
+    image_max_x: 720
+    image_max_y: 540
+    fx: 888.5633 
+    fy: 892.9358
+    cx: 382.9727
+    cy: 266.3324
+    d1: -0.5808 # k1 radial
+    d2: 0.2822 # k2 radial
+    d3: 0.0 # p1 tangential
+    d4: 0.0 # p2 tangential

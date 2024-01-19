@@ -1,0 +1,12 @@
+ir_localization:
+  ros__parameters:
+    gimbal_lockout: 0 # 0: no lockout, 1: soft lockout, 2: hard lockout
+    phi_lockout: 0.0 # Phi angle when gimbal locked out
+    theta_lockout: 0.0 # Theta angle when gimbal locked out
+    publish_gimbal_angles: false # t/f to publish gimbal angles with camera frames
+    exclude_gimbal: false # t/f ignore gimbal homing and commands for debug
+    core_id_list: [63, 207, 243, 343] # Beacon ids considered core to keep in frame
+    core_edge_buffer: 50 # Buffer in px to keep core beacons in
+    phi_change_limit: 5.0 # Bound on max commanded change of gimbal angle, <0 means inactive
+    theta_change_limit: 5.0 # Bound on max commanded change of gimbal angle, <0 means inactive
+    

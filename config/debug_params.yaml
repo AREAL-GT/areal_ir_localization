@@ -1,0 +1,8 @@
+ir_localization:
+  ros__parameters:
+    debug_topics: false # t/f publish to debug topics
+    debug_print_all: false # t/f override to print all debug statements
+    debug_print_pnp: false # t/f print all debug statements in pnp method
+    debug_print_id: false # t/f print all debug statements in beacon id method
+    debug_print_buffer: false # t/t print all debug statements in frame buffer method
+    debug_print_process_beacon: false # t/t print all debug statements in beacon.process_beacon method
